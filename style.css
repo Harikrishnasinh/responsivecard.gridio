@@ -332,3 +332,11 @@ display: grid;
   gap: 3rem;
 }
  }
+@media (max-width:555px)
+.left-grid {
+    height:auto;
+}
+.main-grid{
+    grid-tempelate-column:1fr;
+}
+}
